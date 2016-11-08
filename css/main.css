@@ -16,7 +16,6 @@
 	border: 1px solid white;
 	display: inline-block;
 	position: relative;
-	
 	top: 100px;
 	width:  120px;
 	height: 180px;	
@@ -24,12 +23,12 @@
 .rect1
 {
 	right:1px;
-	 float: left; 
+	float: left; 
 }
 .rect2
 {	
 	left:1px;
-	 float: right; 
+	float: right; 
 }
 
 .circ1

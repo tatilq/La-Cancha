@@ -2,7 +2,7 @@
 .contenedor
 {
 	display: inline-block;
-	background-color: #69A97A;
+	background-color: #7AB775;
 }
 .cancha
 {
@@ -10,19 +10,23 @@
 	width:  800px;
 	height: 400px;
 	display: inline-block;
-	background-color: #69A97A;
+	background-color: #7AB775;
 	margin:20px; 
 	overflow: hidden;
 
 }
-.rect1 , .rect2, .circ1
+.rect1 , .rect2
 {
 	border: 1px solid white;
 	display: inline-block;
 	position: relative;
-	top: 110px;
-	width:  100px;
-	height: 150px;	
+	top: 100px;
+	width:  120px;
+	height: 180px;	
+}
+.rect1
+{
+	float: left;
 }
 .rect2
 {
@@ -30,9 +34,42 @@
 }
 .circ1
 {
-	-moz-border-radius: 70px; 
-	-webkit-border-radius: 70px; 
-	border-radius: 70px;
-	left:   220px;
+	border: 1px solid white;
+	width:  200px;
+	height: 200px;	
+	-moz-border-radius: 100px; 
+   	-webkit-border-radius: 100px; 
+   	border-radius: 100px;
+   	display: inline-block;
+   	position: relative;
+   	top: 100px;
+   	left: 180px;
+   }
+
+.bola1 ,.bola2, .bola3
+{
+	position: relative;
+	display: inline-block;
+}
+.bola1
+{
+ 	float: left;
+ 	top: 105px;
+ 	right: 10px;
+}
+.bola2
+{
+ 	
+ 	left: 70px;
+ 	bottom: 150px;
+ 
+}
+.bola3
+{
 	
+	float: right;
+	top: 250px;
+	right: 5px;
+	
+
 }
